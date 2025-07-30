@@ -1,0 +1,102 @@
+
+body {
+    font-family: "Prompt", serif;
+}
+
+.popupFacebook {
+    position: fixed;
+    right: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 1080;
+}
+
+.popupFacebook {
+    top: 220px;
+}
+
+.popupFacebook img {
+    top: 50px;
+}
+
+.popupLine {
+    position: fixed;
+    right: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 1080;
+}
+
+.popupLine {
+    top: 150px;
+}
+
+.popupLine img {
+    top: 50px;
+}
+
+.popupWinner {
+    top: 290px;
+}
+
+.popupFacebook:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.popupLine img, .popupWinner img, .popupFacebook img {
+    width: 50px;
+}
+
+.block-btn-top a {
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.nav-mobile {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 9;
+}
+
+.nav-mobile a {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: auto;
+}
+
+.nav-main a {
+    color: #eaeaea !important;
+}
+
+.nav-copyright a {
+    color: #eaeaea;
+}
+
+.nav-menu {
+    background: #737373;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+}
+
+.nav-menu a {
+    color: white !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .popupLine img, .popupWinner img, .popupFacebook img {
+        width: 60px;
+    }
+}
