@@ -14,6 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    // return view('welcome');
-    return view('landing');
+    $portfolio = File::files(public_path('images/portfolio'));
+    $videos = File::files(public_path('videos/'));
+
+    usort($portfolio, function($a, $b) {
+        return $b->getMTime() <=> $a->getMTime();
+    });
+    $portfolio = array_slice($portfolio, 0, 12);
+
+    return view('landing', [
+        'portfolio' => $portfolio,
+        'video' => $videos,
+    ]);
+});
+
+Route::get('/portfolio', function () {
+    $files = File::files(public_path('images/portfolio'));
+    return view('portfolio', compact('files'));
 });
