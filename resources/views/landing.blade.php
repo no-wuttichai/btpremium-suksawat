@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'PGNARNIA.COM - SLOTPG')
+@section('title', '5555 PGNARNIA.COM - SLOTPG')
 
 @section('content')
 <div class="container mt-3">
