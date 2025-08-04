@@ -13,8 +13,8 @@
                     </a>
                 </div>
                 <div class="col-4 px-0">
-                    <a href="https://lin.ee/AmpQXN2" target="_blank" class="d-block py-2" style="background: #FF6600;">
-                        <i class="fas fa-phone mr-2"></i> ติดต่อ
+                    <a href="{{ url('/contact') }}" class="d-block py-2" style="background: #FF6600;">
+                        <i class="fas fa-map mr-2"></i> แผนที่
                     </a>
                 </div>
             </div>

@@ -43,3 +43,7 @@ Route::get('/portfolio', function () {
 Route::get('/review', function () {
     return view('review');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
