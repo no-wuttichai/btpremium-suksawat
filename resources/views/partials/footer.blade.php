@@ -1,11 +1,11 @@
 <footer>
     <div class="popupLine">
-        <a href="https://lin.ee/5ZFAYm4" target="_blank">
+        <a href="https://lin.ee/AmpQXN2" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/LINE_logo.svg/2048px-LINE_logo.svg.png" alt="">
         </a>
     </div>
     <div class="popupFacebook">
-        <a href="https://bit.ly/3agwGkd" target="_blank">
+        <a href="https://www.facebook.com/btpremiumautoxenonsuksawat2?locale=th_TH" target="_blank">
             <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/facebook_icon_130940.png" alt="">
         </a>
     </div>
@@ -38,25 +38,25 @@
     <div class="nav-mobile d-lg-none py-3 orange" style="background: #FF6600!important;">
         <ul class="mb-0 pl-0 d-flex">
             <li class="px-2 w-100 d-flex">
-                <a href="" class="">
+                <a href="{{ url('/') }}" class="">
                     <i class="fa fa-home"></i>
                     <div class="">หน้าหลัก</div>
                 </a>
             </li>
             <li class="px-2 w-100 d-flex">
-                <a href="https://pgslot.cc/download" class=" m-auto ">
+                <a href="{{ url('/') }}" class=" m-auto ">
                     <i class="fas fa-cubes"></i>
                     <div class="">สินค้า</div>
                 </a>
             </li>
             <li class="px-2 w-100 d-flex">
-                <a href="https://pggame.autoplay.cloud/register?prefix=Tk5QRw==" class="m-auto">
+                <a href="{{ url('/portfolio') }}" class="m-auto">
                     <i class="fas fa-eye"></i>
                     <div class="">ผลงาน</div>
                 </a>
             </li>
             <li class="px-2 w-100 d-flex">
-                <a href="#session_3" class=" m-auto ">
+                <a href="{{ url('/portfolio') }}" class=" m-auto ">
                     <i class="fas fa-star"></i>
                     <div class="">รีวิว</div>
                 </a>
