@@ -44,6 +44,11 @@
                     <div class="span"><i class="fas fa-star mr-2"></i> รีวิว</div>
                 </a>
             </li>
+            <li class="w-100">
+                <a href="{{ url('/contact') }}" class="py-3 px-4 px-lg-3 d-block">
+                    <div class="span"> <i class="fas fa-map mr-2"></i> แผนที่</div>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
