@@ -44,7 +44,7 @@
                 </a>
             </li>
             <li class="px-2 w-100 d-flex">
-                <a href="{{ url('/') }}" class=" m-auto ">
+                <a href="{{ url('/portfolio') }}" class=" m-auto ">
                     <i class="fas fa-cubes"></i>
                     <div class="">สินค้า</div>
                 </a>
@@ -56,8 +56,8 @@
                 </a>
             </li>
             <li class="px-2 w-100 d-flex">
-                <a href="{{ url('/portfolio') }}" class=" m-auto ">
-                    <i class="fas fa-star"></i>
+                <a href="{{ url('/review') }}" class=" m-auto ">
+                    <i class="fas fa-video"></i>
                     <div class="">รีวิว</div>
                 </a>
             </li>
@@ -79,7 +79,9 @@
         <div class="row mb-5">
             <div class="col-12 text-center text-white">
                 <h2>Add Line</h2>
-                <img src="images/add-line.gif" class="w-75" alt="">
+                <a href="https://lin.ee/AmpQXN2" target="_blank">
+                    <img src="images/add-line.gif" class="w-75" alt="">
+                </a>
             </div>
         </div>
     </div>
