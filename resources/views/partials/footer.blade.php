@@ -9,11 +9,6 @@
             <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/facebook_icon_130940.png" alt="">
         </a>
     </div>
-    <!-- <div class="popupWinner">
-        <a href="#session_5">
-            <img src="https://sharkslot.net/image/other/image1.jpeg?v=1" alt="">
-        </a>
-    </div> -->
     <div id="popup" data-page="xo">
         <div class="popup p-1 border-orange" style="display: none;">
             <div class="body h-100 px-4 py-4 py-lg-5">
@@ -97,6 +92,4 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- <script src="https://sharkslot.net/vender/js/aos.js?v=1"></script>
-        <script src="https://sharkslot.net/vender/js/main.js?v=1"></script> -->
 </footer>
