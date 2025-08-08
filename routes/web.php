@@ -41,7 +41,12 @@ Route::get('/portfolio', function () {
 });
 
 Route::get('/review', function () {
-    return view('review');
+    $review = File::files(public_path('images/review'));
+    usort($review, function($a, $b) {
+        return $b->getMTime() <=> $a->getMTime();
+    });
+    $review = array_slice($review, 0, 12);
+    return view('review', compact('review'));
 });
 
 Route::get('/contact', function () {

@@ -9,6 +9,15 @@
         รีวิว
     </h2>
     <div class="row mt-3 full px-2">
+        @foreach ($review as $item)
+        <div class="col-6 col-md-6 col-lg-4 mb-3 mx-auto px-2 text-center">
+            <div class="d-inline-block zoom-zoom border- w-100 h-100 aos-init aos-animate" data-aos="fade-up">
+                <img src="{{ asset('images/review/' . $item->getFilename()) }}" alt="" class="w-100 h-auto">
+            </div>
+        </div>
+        @endforeach
+    </div>
+    <div class="row mt-3 full px-2">
         <div class="col- col-md-6 col-lg-4 mb-3 mx-auto px-2 text-center">
             <div class="d-inline-block zoom-zoom border- w-100 h-100 aos-init aos-animate" data-aos="fade-up">
                 <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fbtpremiumautoxenonsuksawat2%2Fvideos%2F2562333367437472%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
