@@ -95,6 +95,18 @@ body {
     color: white !important;
 }
 
+.square {
+    aspect-ratio: 1 / 1;      /* บังคับสี่เหลี่ยมจัตุรัส */
+    overflow: hidden;
+}
+.square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        /* ครอบให้เต็ม */
+    object-position: center;
+    display: block;
+}
+
 @media only screen and (min-width: 768px) {
     .popupLine img, .popupWinner img, .popupFacebook img {
         width: 60px;

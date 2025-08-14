@@ -49,6 +49,16 @@ Route::get('/review', function () {
     return view('review', compact('review'));
 });
 
+Route::get('/promotion', function () {
+    $files = File::files(public_path('images/promotion'));
+
+    usort($files, function($a, $b) {
+        return $b->getMTime() <=> $a->getMTime();
+    });
+    $files = array_slice($files, 0, 12);
+    return view('promotion', compact('files'));
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });

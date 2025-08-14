@@ -34,10 +34,9 @@
             <h2 class="text-success font-sriracha mt-md-4" id="session_3" style="color: #FF6600 !important;">ผลงาน</h2>
             <div class="row mt-3 full px-2">
                 @foreach ($portfolio as $file)
-
                 <div class="col-6 col-md-6 col-lg-4 mb-3 mx-auto px-2">
-                    <div class="d-inline-block zoom-zoom border- w-100 h-100 aos-init aos-animate" data-aos="fade-up">
-                        <img src="{{ asset('images/portfolio/' . $file->getFilename()) }}" alt="" class="w-100 h-auto">
+                    <div class="d-inline-block zoom-zoom border- w-100 h-100 aos-init aos-animate square" data-aos="fade-up">
+                        <img src="{{ asset('images/portfolio/' . $file->getFilename()) }}" alt="" class="w-100">
                     </div>
                 </div>
                 @endforeach
@@ -83,8 +82,8 @@
             <div class="row mt-3 px-2">
                 @foreach ($technician as $file)
                 <div class="col-6 col-md-6 col-lg-4 mb-3 px-2 mx-auto">
-                    <div class="d-inline-block border- zoom-zoom aos-init" data-aos="fade-down-right">
-                        <img src="{{ asset('images/technician/' . $file->getFilename()) }}" alt="" class="w-100 h-auto">
+                    <div class="square" data-aos="fade-down-right">
+                        <img src="{{ asset('images/technician/' . $file->getFilename()) }}" alt="" class="w-100">
                     </div>
                 </div>
                 @endforeach

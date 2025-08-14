@@ -5,3 +5,12 @@
 <meta property="og:type" content="website">
 <meta http-equiv="Cache-control" content="public">
 <meta name="msapplication-TileColor" content="#ffffff">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MV20JHRLJ7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MV20JHRLJ7');
+</script>

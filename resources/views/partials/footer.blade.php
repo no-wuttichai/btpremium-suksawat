@@ -39,9 +39,9 @@
                 </a>
             </li>
             <li class="px-2 w-100 d-flex">
-                <a href="{{ url('/portfolio') }}" class=" m-auto ">
-                    <i class="fas fa-cubes"></i>
-                    <div class="">สินค้า</div>
+                <a href="{{ url('/promotion') }}" class=" m-auto ">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="">โปรโมชั่น</div>
                 </a>
             </li>
             <li class="px-2 w-100 d-flex">
