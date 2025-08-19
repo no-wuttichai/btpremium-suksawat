@@ -30,8 +30,8 @@
                 </a>
             </li>
             <li class="w-100">
-                <a href="{{ url('/portfolio') }}" class="py-3 px-4 px-lg-3 d-block">
-                    <div class="span"><i class="fas fa-cubes mr-2"></i> สินค้า</div>
+                <a href="{{ url('/promotion') }}" class="py-3 px-4 px-lg-3 d-block">
+                    <div class="span"><i class="fas fa-bullhorn mr-2"></i> โปรโมชั่น</div>
                 </a>
             </li>
             <li class="w-100">

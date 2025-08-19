@@ -37,6 +37,10 @@ Route::get('/', function () {
 
 Route::get('/portfolio', function () {
     $files = File::files(public_path('images/portfolio'));
+    usort($files, function($a, $b) {
+        return $b->getMTime() <=> $a->getMTime();
+    });
+    $files = array_slice($portfolio, 0, 40);
     return view('portfolio', compact('files'));
 });
 
