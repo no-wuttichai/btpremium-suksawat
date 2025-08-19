@@ -40,7 +40,7 @@ Route::get('/portfolio', function () {
     usort($files, function($a, $b) {
         return $b->getMTime() <=> $a->getMTime();
     });
-    $files = array_slice($files, 0, 40);
+    $files = array_slice($files, 0, 100);
     return view('portfolio', compact('files'));
 });
 
